@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAuth } from '../AuthContext';
 import { LogOut, User, LayoutDashboard, Settings, Bell } from 'lucide-react';
 import { motion } from 'framer-motion';
