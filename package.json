@@ -1,7 +1,10 @@
 {
-  "name": "new-login",
-  "private": true,
-  "version": "0.0.0",
+  "name": "modern-auth-design-template",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A premium, high-performance Authentication Template built with React, Vite, Tailwind CSS, and Framer Motion.",
+  "author": "Rajjit Laishram",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

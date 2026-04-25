@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider, useAuth } from './AuthContext';
 import Login from './Components/Login';
 import Register from './Components/Register';
+import ForgotPassword from './Components/ForgotPassword';
 import Home from './Home/Home';
 import { Toaster } from 'react-hot-toast';
 
@@ -56,6 +57,7 @@ const App = () => {
         <Routes>
           <Route path="/login" element={<AppLayout><Login /></AppLayout>} />
           <Route path="/register" element={<AppLayout><Register /></AppLayout>} />
+          <Route path="/forgot-password" element={<AppLayout><ForgotPassword /></AppLayout>} />
           <Route path="/home" element={
             <ProtectedRoute>
               <Home />
